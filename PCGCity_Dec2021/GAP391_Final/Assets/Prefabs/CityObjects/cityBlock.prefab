@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1152811773079951940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1152811773079951938}
+  - component: {fileID: 1152811773079951941}
+  m_Layer: 0
+  m_Name: cityBlock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1152811773079951938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152811773079951940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.810974, y: 8.469027, z: 24.048464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1152811773079951941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152811773079951940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4058b380663977146bcc63b960cdec2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_doorOptions:
+  - {fileID: 2786426445885264308, guid: 3b6c1b84ca9db88429d0d0c78bf30eb1, type: 3}
+  - {fileID: 2786426445885264308, guid: 7f121ba853d4da84a96c19623c71fdc4, type: 3}
+  - {fileID: 2786426445885264308, guid: ded2a0a0aaf0b89488b819fa6d403d89, type: 3}
+  m_windowOptions:
+  - {fileID: 8849723277451558859, guid: a3a290cbddccbb54fbcdb5b3275ebd10, type: 3}
+  - {fileID: 8849723277451558859, guid: 92643a76a71259c45b4123547ba46263, type: 3}
+  - {fileID: 703455462214669510, guid: 28ecbfd12d7c08a488f094e6c39fe280, type: 3}
+  m_sidewalkOffset: 1.2
+  m_buildingOffset: 0
+  m_minBuildingHeight: 1
+  m_maxBuildingHeight: 10
+  m_financialScaleFactor: 2
+  m_residentialScaleFactor: 0.6
+  m_industrialScaleFactor: 0.4
+  m_sidewalkPrefab: {fileID: 3127502678218122802, guid: 26a4ac42512da34419ef3951129d0577, type: 3}
+  drawGizmos: 0
+  m_buildingBaseColorMat: {fileID: 2100000, guid: 9d32673f4c2e1f54192c6aa53364aac8, type: 2}
+  m_grassMat: {fileID: 2100000, guid: 299ee4a30e29fba4cb5a66f5c43c1cf4, type: 2}
+  m_aiManager: {fileID: 0}
+  m_noiseMap: {fileID: 0}
+  m_type: 0
+  m_buildings: []
+  m_prefabHandler: {fileID: 0}
